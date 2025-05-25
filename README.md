@@ -19,7 +19,7 @@ Este proyecto representa el backend de una aplicación CRUD de estudiantes y pro
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/TU_USUARIO/crud-backend-codesa.git
+git clone https://github.com/santiagoafl/crud-backend-codesa.git
 ```
 
 ### 2. Ejecuta el proyecto
