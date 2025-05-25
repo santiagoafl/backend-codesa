@@ -1,4 +1,4 @@
-**text**# CRUD Backend - Codesa
+# CRUD Backend - Codesa
 
 Este proyecto representa el backend de una aplicación CRUD de estudiantes y profesores, construido con **Spring Boot**. Implementa prácticas modernas como DTOs, paginación, validación, logs y estructura en capas (controlador-servicio-repositorio).
 
