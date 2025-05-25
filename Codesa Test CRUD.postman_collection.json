@@ -1,0 +1,302 @@
+{
+	"info": {
+		"_postman_id": "f0f2e524-21ef-4e15-bdbb-b2ed84e7c2c4",
+		"name": "Codesa Test CRUD",
+		"description": "Puebas de CRUD para las tablas creadas en el backend.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45226389",
+		"_collection_link": "https://santiago-4523461.postman.co/workspace/Santiago-'s-Workspace~fe54add4-4d00-49b6-83c1-c92657872533/collection/45226389-f0f2e524-21ef-4e15-bdbb-b2ed84e7c2c4?action=share&source=collection_link&creator=45226389"
+	},
+	"item": [
+		{
+			"name": "Estudiantes",
+			"item": [
+				{
+					"name": "Estudiantes",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/estudiantes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"estudiantes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Estudiantes",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"Carlos\",\r\n  \"apellido\": \"Becerra\",\r\n  \"fechaNacimiento\": \"2000-05-10\",\r\n  \"email\": \"carlos.becerra@example.com\",\r\n  \"telefono\": \"3124567890\",\r\n  \"numeroMatricula\": \"ESTU002\",\r\n  \"grado\": \"7\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/estudiantes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"estudiantes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Estudiantes",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"Carlos\",\r\n  \"apellido\": \"Becerra\",\r\n  \"fechaNacimiento\": \"2000-05-10\",\r\n  \"email\": \"carlos2bec@yopmail.com\",\r\n  \"telefono\": \"3124567890\",\r\n  \"numeroMatricula\": \"ESTU002\",\r\n  \"grado\": \"7\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/estudiantes/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"estudiantes",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Estudiantes",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/estudiantes/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"estudiantes",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Profesores",
+			"item": [
+				{
+					"name": "Profesores",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/profesores",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"profesores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Profesores",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"María\",\r\n  \"apellido\": \"Rodríguez\",\r\n  \"email\": \"maria.rodriguez@example.com\",\r\n  \"telefono\": \"3204567890\",\r\n  \"fechaNacimiento\": \"1980-05-20\",\r\n  \"fechaContratacion\": \"2015-08-10\",\r\n  \"especialidad\": \"Lengua Castellana\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/profesores",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"profesores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Profesores",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"María\",\r\n  \"apellido\": \"Rodríguez\",\r\n  \"email\": \"rodrimari23@yahoo.com\",\r\n  \"telefono\": \"3204567890\",\r\n  \"fechaNacimiento\": \"1980-05-20\",\r\n  \"fechaContratacion\": \"2015-08-10\",\r\n  \"especialidad\": \"Lengua Castellana\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/profesores/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"profesores",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Profesores",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/profesores/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"profesores",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
